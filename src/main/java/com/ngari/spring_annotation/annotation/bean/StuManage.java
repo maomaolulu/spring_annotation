@@ -3,12 +3,6 @@ package com.ngari.spring_annotation.annotation.bean;
 import com.ngari.spring_annotation.annotation.myannotation.Component;
 import com.ngari.spring_annotation.annotation.myannotation.SetValue;
 
-/**
- * @ClassName StuManage
- * @Description
- * @Author maoLy
- * @Date 2021/1/13
- **/
 
 @Component(name="sm")
 public class StuManage {

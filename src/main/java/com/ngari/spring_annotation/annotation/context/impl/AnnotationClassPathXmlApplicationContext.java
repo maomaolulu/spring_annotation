@@ -1,26 +1,14 @@
 package com.ngari.spring_annotation.annotation.context.impl;
 
-
-
 import com.ngari.spring_annotation.annotation.myannotation.Component;
 import com.ngari.spring_annotation.annotation.myannotation.SetValue;
 import com.ngari.spring_annotation.annotation.context.ApplicationContext;
-
 import java.io.File;
 import java.lang.reflect.Field;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-
-
-
-/**
- * @ClassName AnnotationClassPathXmlApplicationContext
- * @Description
- * @Author maoLy
- * @Date 2021/1/13
- **/
 public class AnnotationClassPathXmlApplicationContext implements ApplicationContext {
     private Map map = new HashMap<>();
 
